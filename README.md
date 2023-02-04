@@ -48,12 +48,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [x] -
 - [x] *
 - [x] /
-- [] %
+- [ ] %
 
 # screenshots 
 | one | two |
 | :---------: | :--------: |
-| <img src="./public/img/one.png" alt="image-one"> | <img src="./public/img/one.png" alt="image-one"> |
+| <img src="https://github.com/YogeshKadu/Calculator-app/blob/main/public/img/one.png" alt="image-one"> | <img src="https://github.com/YogeshKadu/Calculator-app/blob/main/public/img/one.png" alt="image-one"> |
 
 
 build with `:>` in react
