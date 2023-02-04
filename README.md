@@ -53,7 +53,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # screenshots 
 | one | two |
 | :---------: | :--------: |
-| <img src="https://drive.google.com/file/d/1jTA1f86IZr_D3XqUtXjUkK5jof1o1TDO/view" alt="image-one"> | <img src="https://drive.google.com/file/d/1jTA1f86IZr_D3XqUtXjUkK5jof1o1TDO/view" alt="image-one"> |
+| <img src="https://drive.google.com/file/d/1jTA1f86IZr_D3XqUtXjUkK5jof1o1TDO/view?usp=sharing" alt="image-one"> | <img src="https://drive.google.com/file/d/1jTA1f86IZr_D3XqUtXjUkK5jof1o1TDO/view?usp=sharing" alt="image-one"> |
 
 
 build with `💘` in react
