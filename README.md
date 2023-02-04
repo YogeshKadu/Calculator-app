@@ -51,6 +51,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [ ] %
 
 # screenshots 
-[preview](https://drive.google.com/file/d/1jTA1f86IZr_D3XqUtXjUkK5jof1o1TDO/preview)
+[Screenshot 1 preview](https://drive.google.com/file/d/1jTA1f86IZr_D3XqUtXjUkK5jof1o1TDO/preview)
 
 build with `💘` in react
