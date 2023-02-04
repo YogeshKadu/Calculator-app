@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { AiFillCalculator } from "react-icons/ai";
+import Calculator from "./components/Calculator";
 
 function App() {
+  const [activeCalc,setCalc] = useState(false);
+  console.log(activeCalc);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen relative overflow-hidden">
+      {activeCalc && <Calculator />} 
+        <button className="absolute rounded-full w-14 aspect-square bg-slate-800 text-white grid place-content-center bottom-4 right-4" onClick={()=> setCalc(previous=>!previous)}>
+          <AiFillCalculator className="text-2xl" />
+        </button>
     </div>
   );
 }
