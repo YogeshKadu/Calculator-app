@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiFillCalculator } from "react-icons/ai";
+import { AiFillCalculator, AiOutlineClose } from "react-icons/ai";
 import Calculator from "./components/Calculator";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="h-screen relative overflow-hidden">
       {activeCalc && <Calculator />} 
         <button className="absolute rounded-full w-14 aspect-square bg-slate-800 text-white grid place-content-center bottom-4 right-4" onClick={()=> setCalc(previous=>!previous)}>
-          <AiFillCalculator className="text-2xl" />
+        {activeCalc===false?<AiFillCalculator className="text-2xl" />:<AiOutlineClose className="text-2xl" />}
         </button>
     </div>
   );
